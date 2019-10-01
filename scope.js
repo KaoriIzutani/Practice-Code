@@ -1,5 +1,5 @@
-/*Lexical or static scope means that a var that you defined in one place may not be accessible everywhere 
-else in your program.*/
+/*Lexical or static scope means that a var that you defined in one place may not be accessible 
+everywhere else in your program.*/
 /*Global scope (GS) means a var was defined outside of all code blocks (the if statement is an example of a 
 code block). The variable (varOne) is otherwise known as a global var. GS will always exist, even in
 simple programs, like "hello-world.js".*/
