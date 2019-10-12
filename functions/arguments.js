@@ -55,14 +55,14 @@ In this example, you put the "name" var inside ${}.
  your template strings.*/
  
  let getTip = function (total, tipPercent =.2) {
-    let tipConverter = tipPercent * 100 /*This converts your percentage from a decimal 
+   let tipConverter = tipPercent * 100 /*This converts your percentage from a decimal 
     point into a hard number, i.e. .2 becomes 20. Because you want your string to
     show percentage, not the decimal amount.*/
     let tipAmount2 = total * tipPercent
-     return `A ${tipConverter}% on $${total} would be $${tipAmount2}.`/*Enter the dollar sign
-    twice on ${}if you want the dollar sign to show up in your template string.*/
-    /*Alt solution is to do this:
-    return `${tipPercent *100}% on $${total} would be $${total * tipPercent}.`*/
+     return `A ${tipConverter}% tip on $${total} would be $${tipAmount2}.` /*Enter the dollar 
+     sign twice on ${}if you want the dollar sign to show up in your template string.
+    //Alt solution is to do this:
+    return `${tipPercent * 100}% on $${total} would be $${total * tipPercent}.`*/
 }
 
 let tipAmount = getTip(60) /*Remember, if you put a default value in your function, you can
