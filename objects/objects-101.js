@@ -9,7 +9,7 @@ let myBook = {
 is needed. Inside the curly braces, you can define the object's properties (pieces of 
 data stored on an object). Make sure to separate each property with a comma (except 
 for the last property, doesn't need a comma).*/
-/* console.log(`${myBook.title} by ${myBook.author}`) /*You can also use temp;ate strings 
+/* console.log(`${myBook.title} by ${myBook.author}`) /*You can also use template strings 
 to combine objects and properties*/
 
 myBook.title = 'Cracking the Tech Career' /*You can change an object's property by 
