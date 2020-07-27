@@ -1,0 +1,31 @@
+<!--Possible Javascript interview question. Syntax-wise, this is correct. So when you click on the buttons,
+why does nothing happen??-->
+
+<button id="btn-0">Button 1</button>
+<button id="btn-1">Button 2</button>
+<button id="btn-2">Button 3</button>
+
+<Script type="text/javascript">
+    const prizes = ['A Unicorn', 'A Hug', 'Fresh Laundry'];
+    for (var btnNum= 0; btnNum < prizes.length; btnNum++) {
+        //For each button, when the user clicks it..
+        document.getElementById('btn-${btnNum}').onclick = () => { /*The issue happens here. The anonymous 
+            function we're assigning to the buttons, 'btn-S' has access to var in the scope outside of it,
+            aka a closure. In this case,it has access to 'btnNum', defined in the for loop.*/
+            /*When a function accesses a var outside of its scope, it accesses that var, not a frozen copy.
+            When the value held by the var changes, the function gets that new value. When the user presses 
+            the buttons, the for loop already completes and btnNum will be 3. That is what each of the 
+            anonymous functionss gets for btnNum.*/
+            /*Why is btnNum 3 and not 2? The for loop increments btnNum until the conditional in the middle
+            (btnNum < prizes.Length) is no longer met. The code in the for loop won't run with btnNum = 3, but 
+            btnNum will be 3 when the loop is done.*/
+            /*The result is undefined, because prizes has 3 elements, but they are at indices 0, 1, 2. 
+            In JS, accessing a nonexistent index in an array results in undefined (Python throws an 
+            IndexError. Ruby returns nil)*/
+            
+            //should tell him/her what was won:
+            alert(prizes[btnNum]);
+        
+        };
+    }
+    </Script>

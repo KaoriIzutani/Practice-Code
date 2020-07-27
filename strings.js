@@ -1,5 +1,6 @@
-let city = 'Vancouver'
-let country = 'United States'
+let city = 'Yokohama'
+let country = 'Japan'
 let location = city + ', ' + country
+
 
 console.log(location)
