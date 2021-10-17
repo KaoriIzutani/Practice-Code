@@ -1,0 +1,42 @@
+[
+{ 
+  "id": 1,
+  "name": "Apple",
+  "wholePrice": 19.99,
+  "slicePrice": 4.99,
+  "sliceCalories": 67,
+  "imageUrl": "images/apple.jpg"
+ 
+},
+
+{ 
+    "id": 2,
+    "name": "Peach",
+    "wholePrice": 21.99,
+    "slicePrice": 5.49,
+    "sliceCalories": 66,
+    "imageUrl": "images/peach.jpg"
+   
+  },
+
+  { 
+    "id": 3,
+    "name": "Marionberry",
+    "wholePrice": 22.99,
+    "slicePrice": 5.99,
+    "sliceCalories": 75,
+    "imageUrl": "images/marionberry.jpg"
+   
+  },
+
+  { 
+    "id": 4,
+    "name": "Pumpkin",
+    "wholePrice": 21.99,
+    "slicePrice": 5.49,
+    "sliceCalories": 67,
+    "imageUrl": "images/pumpkin.jpg"
+   
+  }
+
+]

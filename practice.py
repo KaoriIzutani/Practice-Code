@@ -4,7 +4,7 @@ print(x + y)
 
 # if x == 100:
      # # print("x is 100") # Always indent four spaces on the next space for readability and 
-	 # # syntax reasons. Ctrl +K in Notepad ++ to multi-line comment out. Ctrl + Shift + K 
+	 # # syntax reasons. Ctrl + K in Notepad ++ to multi-line comment out. Ctrl + Shift + K 
 	 # # to uncomment.
 
     # elif x == 99:
@@ -72,8 +72,8 @@ def my_fun(x):
 	
 my_fun(100)
 
-# for i in range(100): # This for loop allows you to call the function 100 times without needing 
-# # to call it 100 {or how many times you define it inside the parenthesis} times. 
+# for i in range(100): # This for loop allows you to call the function 100 times without 
+# needing to call it 100 {or how many times you define it inside the parenthesis} times. 
     # my_fun()
 
     

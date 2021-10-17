@@ -17,8 +17,8 @@ for the last property, doesn't need a comma).*/
 //  console.log(`${myBook.title} by ${myBook.author}`)
 
 // /*Challenge time. Create an object of a person. Properties include name, age and 
-// location. Make your template string be 'Kaori is 42 and lives in Vancouver.' Then 
-// modify the age by 1.*/
+// location. Make your template string be 'Francine Yoshimura is 45 and lives in 
+//Laguna Beach.' Then modify the age by 1.*/
 
 let myProfile = {
     name: 'Francine Yoshimura',
